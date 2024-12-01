@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create an Axios instance
 const API = axios.create({
-  baseURL: "http://localhost:8000/api", // Replace with your backend's base URL
+  baseURL: "https://fligth-app-server-1.onrender.com/api", // Replace with your backend's base URL
   withCredentials: true, // Allow cookies to be sent with requests
 });
 
